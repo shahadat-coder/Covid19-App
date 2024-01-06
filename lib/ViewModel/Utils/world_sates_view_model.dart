@@ -1,11 +1,10 @@
 
 import 'dart:convert';
-
 import 'package:covid_19/Model/world_states.dart';
 import 'package:covid_19/ViewModel/Utils/app_url.dart';
 import 'package:http/http.dart' as http;
 
-class StatesServices {
+class WorldStatesViewModel {
 
 
   Future<WorldStatesModel> fetchWorldRecords() async {
